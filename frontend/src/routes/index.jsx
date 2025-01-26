@@ -24,7 +24,7 @@ const routes = [
     },
     {
         path: '*',
-        element: <h1>Page Not Found</h1>
+        element: <h1 className='text-blue-600 '>Page Not Found</h1>
     }
 
 ]
