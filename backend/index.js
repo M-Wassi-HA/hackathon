@@ -11,7 +11,7 @@ app.use(express.json())
 
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the Saylani server');
+    res.send('Welcome to the beneficiary app');
 })
 app.use('/managment', menagmentRoutes)
 app.use('/beneficiary', beneficiaryRoutes)
